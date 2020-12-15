@@ -1,0 +1,13 @@
+div a {
+    display: block;
+    color: #ffffff;
+    height: 40px;
+    width: 230px;
+    text-decoration: none;
+    background-color: #535758;
+    line-height: 40px;
+}
+
+div a:hover {
+    background-color: #ff6700;
+}

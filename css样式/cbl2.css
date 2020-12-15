@@ -1,0 +1,14 @@
+div a {
+    display: block;
+    color: #fff;
+    height: 60px;
+    width: 250px;
+    text-decoration: none;
+    line-height: 60px;
+    background-color: pink;
+}
+
+div a:hover {
+    background-color: skyblue;
+    color: #FF707C;
+}
