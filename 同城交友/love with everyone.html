@@ -5,34 +5,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Love with everyone</title>
+    <link rel="stylesheet" href="../css样式/common.css">
+    <style>
+        body {
+            background-image: url(../images/百合网/5.jpg);
+            background-position: center top;
+            background-repeat: no-repeat;
+            background-attachment: scroll;
+        }
+    </style>
 </head>
 
 <body>
-    <h1>百合网-like</h1>
-    <h2>青春不常在，抓紧谈恋爱, with everyone</h2>
-    <table width="500">
-        <!-- 第一行 -->
-        <tr>
-            <td>姓名</td>
-            <td>
-                <input type="text" placeholder="请输入您的姓名(CN or en)">
-            </td>
-        </tr>
-        <!-- 第二行 -->
-        <tr>
-            <td>性别</td>
-            <td>
-                <input type="radio" name="sex" id="nan"> <label for="nan"><img src="nan.png" width="20"> 男</label>
-                <input type="radio" name="sex" id="nv"> <label for="nv"><img src="nv.png" width="20"> 女</label>
-            </td>
+    <div align="center">
+        <h1>百合网-like</h1>
+        <h2>青春不常在，抓紧谈恋爱, with everyone</h2>
+        <table width="500">
+            <!-- 第一行 -->
+            <tr>
+                <td>姓名</td>
+                <td>
+                    <input type="text" placeholder="请输入您的姓名(CN or en)">
+                </td>
+            </tr>
+            <!-- 第二行 -->
+            <tr>
+                <td>性别</td>
+                <td>
+                    <input type="radio" name="sex" id="nan"> <label for="nan"><img src="nan.png" width="20"> 男</label>
+                    <input type="radio" name="sex" id="nv"> <label for="nv"><img src="nv.png" width="20"> 女</label>
+                </td>
 
 
-        </tr>
-        <!-- 第三行 -->
-        <tr>
-            <td>生日</td>
-            <td>
-                <select>
+            </tr>
+            <!-- 第三行 -->
+            <tr>
+                <td>生日</td>
+                <td>
+                    <select>
                     <option>--请输入年份--</option>
                     <option>1995</option>
                     <option>1996</option>
@@ -45,7 +55,7 @@
                     <option>2003</option>
                     <option>2004</option>
                 </select>
-                <select>
+                    <select>
                     <option>--请输入月份--</option>
                     <option>1</option>
                     <option>2</option>
@@ -60,7 +70,7 @@
                     <option>11</option>
                     <option>12</option>
                 </select>
-                <select>
+                    <select>
                     <option>--请输入日--</option>
                     <option>1</option>
                     <option>2</option>
@@ -94,13 +104,13 @@
                     <option>30</option>
                     <option>31</option>
                 </select>
-            </td>
-            <!-- 第四行 -->
-        </tr>
-        <tr>
-            <td>所在地区</td>
-            <td>
-                <select>
+                </td>
+                <!-- 第四行 -->
+            </tr>
+            <tr>
+                <td>所在地区</td>
+                <td>
+                    <select>
                     <option>请输入地区</option>
                     <option>台州simida</option>
                     <option>杭州axiba</option>
@@ -108,97 +118,96 @@
                     <option>沈阳aluba</option>
                     <option>其他loooool</option>
                 </select>
-            </td>
-        </tr>
-        <!-- 第五行 -->
-        <tr>
-            <td>婚姻状况</td>
-            <td>
-                <input type="radio" name="marry" checked="checked">未婚
-                <input type="radio" name="marry">已婚
-                <input type="radio" name="marry">重婚
-            </td>
+                </td>
+            </tr>
+            <!-- 第五行 -->
+            <tr>
+                <td>婚姻状况</td>
+                <td>
+                    <input type="radio" name="marry" checked="checked">未婚
+                    <input type="radio" name="marry">已婚
+                    <input type="radio" name="marry">重婚
+                </td>
 
-        </tr>
+            </tr>
 
-        <!-- 第六行 -->
-        <tr>
-            <td>学历</td>
-            <td>
-                <input type="textarea">
-            </td>
+            <!-- 第六行 -->
+            <tr>
+                <td>学历</td>
+                <td>
+                    <input type="textarea">
+                </td>
 
-        </tr>
-        <!-- 第七行 -->
-        <tr>
-            <td>喜欢的类型（可多选，不建议全选）</td>
-            <td>
-                <input type="checkbox" name="love">妩媚的
-                <input type="checkbox" name="love">性感的
-                <input type="checkbox" name="love">小鲜肉肉
-                <input type="checkbox" name="love">老腊肉肉
-                <input type="checkbox" name="love">老油条
-                <input type="checkbox" name="love">绿茶
-                <input type="checkbox" name="love">渣男
-                <input type="checkbox" name="love">萌萌哒<br />
-                其他<input type="text">
-            </td>
+            </tr>
+            <!-- 第七行 -->
+            <tr>
+                <td>喜欢的类型（可多选，不建议全选）</td>
+                <td>
+                    <input type="checkbox" name="love">妩媚的
+                    <input type="checkbox" name="love">性感的
+                    <input type="checkbox" name="love">小鲜肉肉
+                    <input type="checkbox" name="love">老腊肉肉
+                    <input type="checkbox" name="love">老油条
+                    <input type="checkbox" name="love">绿茶
+                    <input type="checkbox" name="love">渣男
+                    <input type="checkbox" name="love">萌萌哒<br /> 其他
+                    <input type="text">
+                </td>
 
-        </tr>
-        <!-- 第八行 -->
-        <tr>
-            <td>自我介绍</td>
-            <td>
-                <textarea rows="2" placeholder="自我介绍"></textarea>
-            </td>
-
-
-        </tr>
-        <!-- 第九行 -->
-        <tr>
-            <td></td>
-            <td>
-                <input type="submit" value="免费注册">
-            </td>
-        </tr>
-        <!-- 第十行 -->
-        <tr>
-            <td></td>
-            <td>
-                <input type="checkbox" checked="checked">
-                我同意注册条款和会员申请要求
-            </td>
+            </tr>
+            <!-- 第八行 -->
+            <tr>
+                <td>自我介绍</td>
+                <td>
+                    <textarea rows="2" placeholder="自我介绍"></textarea>
+                </td>
 
 
-        </tr>
-        <!-- 第十一行 -->
-        <tr>
-            <td></td>
-            <td><a href="https://my.baihe.com/login">我是会员，立即登录</a></td>
+            </tr>
+            <!-- 第九行 -->
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="免费注册">
+                </td>
+            </tr>
+            <!-- 第十行 -->
+            <tr>
+                <td></td>
+                <td>
+                    <input type="checkbox" checked="checked"> 我同意注册条款和会员申请要求
+                </td>
 
 
-        </tr>
-        <!-- 第十二行 -->
-        <tr>
-            <td></td>
-            <td>
-                <h3>我承诺</h3>
-                <ul>
-                    <li>年满18周岁</li>
-                    <li>愿付出我的真心</li>
-                </ul>
+            </tr>
+            <!-- 第十一行 -->
+            <tr>
+                <td></td>
+                <td><a href="https://my.baihe.com/login">我是会员，立即登录</a></td>
 
 
-
-            </td>
-
-
-        </tr>
+            </tr>
+            <!-- 第十二行 -->
+            <tr>
+                <td></td>
+                <td>
+                    <h3>我承诺</h3>
+                    <ul>
+                        <li>年满18周岁</li>
+                        <li>愿付出我的真心</li>
+                    </ul>
 
 
 
-    </table>
+                </td>
 
+
+            </tr>
+
+
+
+        </table>
+    </div>
 
 
 
